@@ -1,5 +1,4 @@
 
-
 html {
 	height:100%;
 	box-sizing: border-box;
@@ -14,7 +13,6 @@ p{
 .font{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
 
 
 .header{
@@ -53,7 +51,6 @@ h5 {
 }
 
 
-
 nav{
 	float: right;
 	color:#777;
@@ -81,8 +78,9 @@ border:none;
 }
 
 
+a:visited {
+	color: #777;
 }
-
 
 body{
 	height:100%;
@@ -119,7 +117,7 @@ body{
 	display: inline-block;
 	overflow:auto;
     padding-bottom: 60px;
-    background-image: url("../images/vintage-concrete.png");
+    background-image: url("../images/Vintage-Concrete.png");
     padding-bottom:10%;
 }
 
@@ -185,6 +183,9 @@ color:white;
 padding: 8px 16px;
 }
 
+#submit_button:hover{
+	color:black;
+}
 
 #connect_1{
 	float:right;
@@ -197,6 +198,7 @@ padding: 8px 16px;
 	padding-bottom:10px;
 	border-bottom: 1px solid #ccc;
 }
+
 
 .port_imgs{
 	display: inline-block;
